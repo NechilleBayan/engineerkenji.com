@@ -1,13 +1,10 @@
 body {
     background-color: black;
-    background-image: url("globals/intro-bg.jpg");
-    filter: grayscale(75%);
+    background: url(globals/intro-bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    background-position-y: top;
-    background-position-x:center;
-    color:rgb(245, 245, 245);
 }
 
 
@@ -23,12 +20,16 @@ body {
   padding: 30px;
   font-family: 'Roboto', sans-serif;
   justify-self: center;
+  align-self: center;
+  margin: auto;
 }
 
 .contact {
   padding: 30px;
   font-family: 'Urbanist', sans-serif;
   justify-self: center;
+  align-self: center;
+  margin: auto;
 }
 
 button {
