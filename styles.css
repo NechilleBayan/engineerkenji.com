@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    background-image: url("globals/intro-bg.jpg");
+    filter: grayscale(75%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position-y: top;
+    background-position-x:center;
+    color:rgb(245, 245, 245);
+}
+
+
+.container {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 50% 50%;
+  background-color: rgba(0, 0, 0, 0.192);
+  color:rgb(218, 218, 218);
+}
+
+.name {
+  padding: 30px;
+  font-family: 'Roboto', sans-serif;
+  justify-self: center;
+}
+
+.contact {
+  padding: 30px;
+  font-family: 'Urbanist', sans-serif;
+  justify-self: center;
+}
+
+button {
+  color:rgb(218, 218, 218)
+}
+
+.btn-link {
+  font-weight: 400;
+  color: rgb(218, 218, 218);
+  text-decoration: underline;
+}
