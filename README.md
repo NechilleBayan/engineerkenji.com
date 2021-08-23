@@ -2,7 +2,11 @@
 Kenji Tanaka Personal Website
 
 ## desc
-A basic website that briefly introduces Kenji Tanaka. Contains his name and a button that redirects to Kenji Tanaka's LinkedIn profile.
+engineerkenji.com basic website that briefly introduces Kenji Tanaka. This displays his name, occupation, and a button that redirects to Kenji Tanaka's LinkedIn profile.
+
+## Demo
+
+
 
 ### Utilized
 HTML
