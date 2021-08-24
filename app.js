@@ -9,3 +9,4 @@ $( "div.contact" )
   .mouseleave(function() {
     $( this ).find( "h2" ).text( "Get in touch with me" );
   });
+
