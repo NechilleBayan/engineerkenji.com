@@ -10,3 +10,4 @@ $( "div.contact" )
     $( this ).find( "h2" ).text( "Get in touch with me" );
   });
 
+// comment for merging 1
