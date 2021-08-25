@@ -1,3 +1,4 @@
+  /*    DO NOT TOUCH (for perfect background)   */
 body {
     background-color: black;
     background: url(globals/intro-bg.jpg) no-repeat center center fixed;
@@ -9,40 +10,56 @@ body {
 
 
 .container {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.192);
+  height: 100vh;
+  width: 100vw;
+
+  background-color: rgba(0, 0, 0, 0.418);
   color:rgb(218, 218, 218);
+
   align-items: center;
   justify-content: center;
+  margin:auto;
+
+  font-family: 'Urbanist', sans-serif;
+
+  display: flex;
+  flex-direction: column;
 }
 
-.name {
-  height: 100vh;
+.name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+
+  color: white;
+  font-family: 'Urbanist', sans-serif, 500;
   padding: 30px;
-  font-family: 'Roboto', sans-serif;
-  justify-self: center;
-  align-self: center;
+  height: 75vh;
 }
+
+#kenji {
+  font-size: 7vw;
+  font-weight: bold;
+  width: 100%;
+}
+
+
 
 .contact {
-  height: 100vh;
+  height: 25vh;
   padding: 30px;
   font-family: 'Urbanist', sans-serif;
   justify-self: center;
   align-self: center;
+  margin:auto;
 }
 
-button {
-  color:rgb(218, 218, 218)
-}
 
-.btn-link {
-  font-weight: 400;
-  color: rgb(218, 218, 218);
-  text-decoration: underline;
-}
+
+
 
 /*-- TEXT ANIMATION --*/
 .wrapper {
@@ -54,13 +71,12 @@ button {
 }
 
 .typing-demo {
-  width: 15ch;
-  animation: typing 2s steps(15), blink .5s step-end infinite alternate;
+  width: 35ch;
+  animation: typing 2s steps(35), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
-  font-family: 'Roboto', sans-serif;
-  font-size: 2em;
+  font-family: 'Urbanist', sans-serif;
 }
 
 @keyframes typing {
@@ -84,3 +100,19 @@ img{
 }
 
 /* comment for merging 1 */
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .container {
+      display: grid;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.192);
+      color:rgb(218, 218, 218);
+      align-items: center;
+      justify-content: center;
+    }
+}
+
