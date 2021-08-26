@@ -1,11 +1,14 @@
 const linkedIn = document.querySelector(".link");
 
-const toIcon = '<a href="https://www.linkedin.com/in/engrkenjitanaka/"><img src="globals/LinkedIn.png" alt="LinkedIn icon"></a>';
+const toIcon = '<a href="https://www.linkedin.com/in/engrkenjitanaka/"><img src="globals/transparentLI.png" alt="LinkedIn icon"></a>';
+
 
 $( "div.contact" )
   .mouseenter(function() {
-    $( this ).find( "h2" ).html(toIcon);
+    // $( this ).delay(3000).fadeIn();
+    $( this ).find( "div.hover-area" ).html(toIcon);
   })
   .mouseleave(function() {
-    $( this ).find( "h2" ).text( "Get in touch with me" );
+    // $( this ).delay(3000).fadeIn();
+    $( this ).find( "div.hover-area" ).html( "<h2>Get in touch with me :)</h2>" );
   });
