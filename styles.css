@@ -33,21 +33,23 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   text-align: center;
 
-  padding: 30px;
+  padding: 30vh 10px 10px 10px;
+
   height: 70vh;
 }
+
 
 #kenji {
   font-weight: bold;
   width: 100%;
-  font-size: 10vw;
 }
 
 #link {
   font-size: 3vw;
+  display: none;
 }
 
 .contact {

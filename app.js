@@ -15,3 +15,12 @@
 
 
 // $("#kenji").delay(3500).fadeIn(500);
+
+
+$(document).ready(function(){
+    $('#command').delay(2500).fadeOut(100)
+    $('#kenji').delay(3000).fadeIn(500);
+    $('#devops').delay(4000).fadeIn(2000);
+    $('#link').delay(4500).fadeIn(2200);
+
+});
