@@ -18,7 +18,7 @@ body {
   height: 100vh;
   width: 100vw;
 
-  background-color: rgba(0, 0, 0, 0.616);
+  background-color: rgba(22, 22, 22, 0.87);
   color:rgb(218, 218, 218);
 
   align-items: center;
@@ -88,13 +88,6 @@ img{
   justify-content: center;
 }
 
-.typing-demo {
-  width: 43vw;
-  animation: typing 2s steps(40), blink .5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
-}
 @keyframes typing {
   from {
     width: 0
