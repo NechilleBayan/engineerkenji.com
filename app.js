@@ -18,9 +18,9 @@
 
 
 $(document).ready(function(){
-    $('#command').delay(2500).fadeOut(100)
-    $('#kenji').delay(3000).fadeIn(500);
-    $('#devops').delay(4000).fadeIn(2000);
-    $('#link').delay(4500).fadeIn(2200);
+    $('#command').delay(5000).fadeOut(100)
+    $('#kenji').delay(6000).fadeIn(200);
+    $('#devops').delay(7000).fadeIn(2200);
+    $('#link').delay(8500).fadeIn(2200);
 
 });

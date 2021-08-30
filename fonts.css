@@ -1,7 +1,7 @@
 /* ---------    FONTS and Icon   --------- */
 
 * {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Poppins', sans-serif;
     font-size: 100%;
 }
 
@@ -10,6 +10,8 @@
 /* ---------    Desktop Styles   --------- */
 #command {
   font-size: 2.5vw;
+  line-height: 80%;
+  font-family: 'Source Code Pro', monospace;
 }
 
 #kenji {
@@ -18,7 +20,7 @@
 }
 
 #devops {
-    font-size: 2vw;
+    font-size: 1.5vw;
     display: none;
 }
 
@@ -35,10 +37,11 @@ img {
 
 .typing-demo {
     width: 43vw;
-    animation: typing 2s steps(30), blink .5s step-end infinite alternate;
+    animation: typing 4s steps(40), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 3px solid;
+    border-right: 6px solid;
+    font-family: 'Source Code Pro', monospace;
 }
 
 
@@ -55,7 +58,7 @@ img {
       }
 
     #devops {
-        font-size: 2.5vw;
+        font-size: 2vw;
       }
 
     #link {
@@ -70,10 +73,6 @@ img {
 
     .typing-demo {
       width: 50vw;
-      animation: typing 2s steps(30), blink .5s step-end infinite alternate;
-      white-space: nowrap;
-      overflow: hidden;
-      border-right: 3px solid;
     }
 
 }
@@ -85,14 +84,13 @@ img {
     #command {
       font-size: 3vw;
     }
-  
-  
+
     #kenji {
         font-size: 3.5vw;
       }
 
     #devops {
-        font-size: 2.5vw;
+        font-size: 2vw;
       }
 
     #link {
@@ -112,10 +110,6 @@ img {
 
     .typing-demo {
       width: 50vw;
-      animation: typing 2s steps(30), blink .5s step-end infinite alternate;
-      white-space: nowrap;
-      overflow: hidden;
-      border-right: 3px solid;
     }
 }
 
@@ -133,7 +127,7 @@ img {
       }
 
       #devops {
-        font-size: 4.5vw;
+        font-size: 4vw;
       }
 
       #link {
@@ -147,11 +141,7 @@ img {
       }
 
       .typing-demo {
-        width: 80vw;
-        animation: typing 2s steps(30), blink .5s step-end infinite alternate;
-        white-space: nowrap;
-        overflow: hidden;
-        border-right: 3px solid;
+        width: 75vw;
       }
 }
 
